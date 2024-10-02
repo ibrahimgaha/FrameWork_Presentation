@@ -1,0 +1,133 @@
+@import url('navbar.css');
+@import url('footer.css');
+
+.table-container {
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #f7f7f7, #e2e2e2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.table thead th {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.table tbody td {
+    background: #fff;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.table tbody td:hover {
+    background: #e2e2e2;
+    transform: scale(1.02);
+}
+
+.table tbody td .framework-icon {
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.table tbody td ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.table tbody td ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #000000;
+    position: relative;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.table tbody td ul li .framework-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #0f0519;
+}
+
+.table tbody td ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+    top: 0;
+}
+/* Container styling */
+.comparison {
+    background-color: #f9f9f9; /* Light background for the section */
+    padding: 2rem; /* Padding around the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Framework category styling */
+.framework-category {
+    margin-bottom: 1.5rem; /* Space between categories */
+}
+
+.framework-category h2 {
+    font-size: 1.8rem; /* Font size for headings */
+    color: #333; /* Dark text color */
+    border-bottom: 2px solid #6a11cb; /* Underline for headings */
+    padding-bottom: 0.5rem; /* Space below the heading */
+    margin-bottom: 1rem; /* Space below the heading */
+}
+
+.framework-category p {
+    font-size: 1.1rem; /* Font size for paragraphs */
+    color: #555; /* Gray text color */
+    line-height: 1.6; /* Line height for readability */
+}
+
+/* Bold text styling */
+.framework-category strong {
+    color: #2575fc; /* Color for highlighted text */
+    font-weight: 600; /* Slightly bolder text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .comparison {
+        padding: 1rem; /* Reduced padding on smaller screens */
+    }
+
+    .framework-category h2 {
+        font-size: 1.5rem; /* Smaller font size for headings */
+    }
+
+    .framework-category p {
+        font-size: 1rem; /* Smaller font size for paragraphs */
+    }
+}

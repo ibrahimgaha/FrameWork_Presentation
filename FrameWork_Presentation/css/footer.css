@@ -1,0 +1,30 @@
+.footer {
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer nav ul li {
+    display: inline;
+}

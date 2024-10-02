@@ -1,0 +1,83 @@
+/* Custom background color for the navbar */
+.bg-custom {
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%); /* Vibrant gradient background */
+    padding: 15px 0; /* Add some padding to make the navbar look more prominent */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Navbar brand style */
+.navbar-brand {
+    font-size: 2rem; /* Increase the font size */
+    font-weight: bold;
+    color: #ffffff !important; /* Ensure white text */
+    transition: color 0.3s ease;
+    letter-spacing: 1px; /* Add spacing for a modern look */
+}
+
+.navbar-brand:hover {
+    color: #ffd700 !important; /* Change to gold on hover */
+}
+
+/* Nav links style */
+.nav-link {
+    font-size: 1.3rem; /* Increase the font size */
+    color: #ffffff !important; /* White color */
+    padding: 8px 20px; /* Padding for more clickable area */
+    transition: color 0.4s ease, background-color 0.4s ease; /* Smooth hover animation */
+}
+
+.nav-link:hover {
+    color: #ffd700 !important; /* Gold color on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Slight background on hover */
+    border-radius: 5px; /* Rounded edges for the hover effect */
+}
+
+/* Active link style */
+.nav-link.active {
+    color: #ffd700 !important; /* Highlight active link */
+    font-weight: bold;
+}
+
+/* Dropdown menu style */
+.dropdown-menu {
+    background-color: #343a40 !important; /* Dark background for dropdown */
+    border-radius: 8px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.dropdown-item {
+    color: #ffffff !important; /* White dropdown items */
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #6a11cb !important; /* Hover effect in dropdown */
+    color: #ffd700 !important; /* Gold text on hover */
+}
+
+/* Navbar toggler icon style */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* Center the navbar content */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Centering navbar items */
+.navbar-nav li {
+    margin: 0 15px; /* Add spacing between items */
+}
+
+/* Add a smooth hover effect for the navbar items */
+.navbar-nav li {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav li:hover {
+    transform: scale(1.1); /* Slightly grow the item on hover */
+    color: #ffd700; /* Gold color for text on hover */
+}

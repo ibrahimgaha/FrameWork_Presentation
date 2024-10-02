@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End FrameWorks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <link href="css/FrontFrameWork.css" rel="stylesheet"> <!-- External CSS link -->
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+    <div class="container-fluid justify-content-center"> <!-- Center the navbar content -->
+      <a class="navbar-brand text-center" href="/index.html">DevFrameworks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown" > <!-- Centering nav items -->
+        <ul class="navbar-nav" >
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html"> <i class="fa-solid fa-house"></i>Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/FicheFrameWorks.html"> <i class="fa-solid fa-table-list"></i>Fiche de chaque framework</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-layer-group"></i> Section Par Categorie
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/Back-End_FrameWorks.html">Back-End Frameworks</a></li>
+                <li><a class="dropdown-item" href="/Front-End_FrameWorks .html">Front-End Frameworks</a></li>
+                <li><a class="dropdown-item" href="/Mobile_FrameWorks.html">Mobile Frameworks</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <header class="header">
+    <h1>Aperçu des Frameworks Front-End</h1>
+    <p>Une analyse détaillée des frameworks front-end les plus populaires</p>
+</header>
+
+<section class="frameworks">
+    <article class="framework">
+        <h2>React</h2>
+        <p>React est une bibliothèque basée sur des composants pour créer des interfaces utilisateur. Elle utilise un DOM virtuel pour des mises à jour efficaces de l'interface et est très flexible avec un écosystème vaste.</p>
+    </article>
+    <article class="framework">
+        <h2>Angular</h2>
+        <p>Angular est un framework complet et opiniâtre pour construire des applications de niveau entreprise. Il utilise la liaison de données bidirectionnelle et possède un CLI puissant.</p>
+    </article>
+    <article class="framework">
+        <h2>Vue.js</h2>
+        <p>Vue.js est un framework progressif connu pour sa simplicité et sa flexibilité. Il peut être adopté progressivement ou utilisé pour construire des applications complètes.</p>
+    </article>
+    <article class="framework">
+        <h2>Svelte</h2>
+        <p>Svelte déplace une grande partie du travail du navigateur à l'étape de construction. Il compile les composants en JavaScript efficace qui manipule directement le DOM.</p>
+    </article>
+    <article class="framework">
+        <h2>Ember.js</h2>
+        <p>Ember est un framework opiniâtre qui privilégie les conventions plutôt que la configuration, conçu pour des applications de grande envergure. Il offre un environnement productif et évolutif.</p>
+    </article>
+    <article class="framework">
+        <h2>Backbone.js</h2>
+        <p>Backbone est un framework léger qui fournit une structure minimale pour la construction d'applications monopages. Il est idéal pour des projets petits à moyens nécessitant de la flexibilité.</p>
+    </article>
+</section>
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2024 Ibrahim Gaha. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+  </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
